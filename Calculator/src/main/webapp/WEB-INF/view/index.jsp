@@ -15,7 +15,7 @@
     <input type="submit" name="cal" value="Multiplication">
     <input type="submit" name="cal" value="Division">
     <br>
-    <label>Result Division: ${results}</label>
+    <label>Result ${cals}: ${results}</label>
 </form>
 </body>
 </html>

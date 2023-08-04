@@ -29,6 +29,7 @@ public class CalculatorController {
                 result = a / b;
                 break;
         }
+        model.addAttribute("cals",cal);
         model.addAttribute("results",result);
         return "index";
     }
