@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e84d50e6-ed1e-415f-a7a8-b8cb48a393b4" name="Changes" comment="">
+    <list default="true" id="36a4379f-5579-44b8-9076-92dc994e3506" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../Calculator/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Calculator/.idea/gradle.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Calculator/.idea/misc.xml" afterDir="false" />
@@ -22,25 +22,25 @@
       <change afterPath="$PROJECT_DIR$/../Calculator/src/main/java/thanhbui/vn/calculator/controller/CalculatorController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Calculator/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Calculator/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/java/thanhbui/vn/showspice/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/java/thanhbui/vn/showspice/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/java/thanhbui/vn/showspice/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/java/thanhbui/vn/showspice/controller/SpiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/webapp/WEB-INF/view/submit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/showspice/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/showspice/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/showspice/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/showspice/controller/SpiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/submit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2TQk67jZQr56Os066AV2wec6lI2" />
+  <component name="ProjectId" id="2TWA6cD9xWHj2d7N4S1bjef57L1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -87,30 +87,30 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "H:/CodeGym/Modul4/Modul4/Dictionary",
-    "spring.configuration.checksum": "934dd26bbd077c205cd7caea5b580f66"
+    "last_opened_file_path": "H:/CodeGym/Modul4/Modul4/ShowSpice",
+    "spring.configuration.checksum": "a7799a7466c617d6fd4bb91be35b8ec8"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\CodeGym\Modul4\Modul4\Dictionary\src\main\java\com\example\dictionary" />
+      <recent name="H:\CodeGym\Modul4\Modul4\ShowSpice\src\main\java\thanhbui\vn\showspice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\CodeGym\Modul4\Modul4\Dictionary\src\main\webapp\WEB-INF\view" />
+      <recent name="H:\CodeGym\Modul4\Modul4\ShowSpice\src\main\webapp\WEB-INF\view" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.761" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.761" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Gradle : com.example : Dictionary-1.0-SNAPSHOT.war">
+        <artifact name="Gradle : thanhbui.vn : ShowSpice-1.0-SNAPSHOT.war">
           <settings>
             <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="b4380bb9-7148-44ac-947e-5c8019c19c54" />
+        <option name="BASE_DIRECTORY_NAME" value="a9fccbb4-ab31-4b9e-98b1-e62adcc2798c" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -118,7 +118,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51108" />
+        <option name="DEBUG_PORT" value="50483" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -183,7 +183,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Gradle : com.example : Dictionary-1.0-SNAPSHOT.war" />
+          <artifact name="Gradle : thanhbui.vn : ShowSpice-1.0-SNAPSHOT.war" />
         </option>
       </method>
     </configuration>
@@ -191,14 +191,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e84d50e6-ed1e-415f-a7a8-b8cb48a393b4" name="Changes" comment="" />
-      <created>1690982516161</created>
+      <changelist id="36a4379f-5579-44b8-9076-92dc994e3506" name="Changes" comment="" />
+      <created>1691148290965</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1690982516161</updated>
-      <workItem from="1690982518062" duration="3628000" />
-      <workItem from="1691146344179" duration="1831000" />
-      <workItem from="1691154245703" duration="7000" />
+      <updated>1691148290965</updated>
+      <workItem from="1691148293480" duration="4304000" />
+      <workItem from="1691154262022" duration="1218000" />
     </task>
     <servers />
   </component>

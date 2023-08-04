@@ -4,24 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e84d50e6-ed1e-415f-a7a8-b8cb48a393b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Calculator/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/main/java/thanhbui/vn/calculator/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/main/java/thanhbui/vn/calculator/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/main/java/thanhbui/vn/calculator/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/main/java/thanhbui/vn/calculator/controller/CalculatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="bca3415d-4b52-4941-965f-1c5664e5226e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/calculator/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/calculator/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/calculator/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/calculator/controller/CalculatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ShowSpice/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ShowSpice/.idea/gradle.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ShowSpice/.idea/misc.xml" afterDir="false" />
@@ -40,7 +40,7 @@
       <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/webapp/WEB-INF/view/submit.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -73,7 +72,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2TQk67jZQr56Os066AV2wec6lI2" />
+  <component name="ProjectId" id="2TWGqyUlK2Xp8XcVHCyzPS3d3tj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -87,30 +86,29 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "H:/CodeGym/Modul4/Modul4/Dictionary",
-    "spring.configuration.checksum": "934dd26bbd077c205cd7caea5b580f66"
+    "last_opened_file_path": "H:/CodeGym/Modul4/Modul4/ShowSpice"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\CodeGym\Modul4\Modul4\Dictionary\src\main\java\com\example\dictionary" />
+      <recent name="H:\CodeGym\Modul4\Modul4\Calculator\src\main\java\thanhbui\vn\calculator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\CodeGym\Modul4\Modul4\Dictionary\src\main\webapp\WEB-INF\view" />
+      <recent name="H:\CodeGym\Modul4\Modul4\Calculator\src\main\webapp\WEB-INF\view" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.761" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.761" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Gradle : com.example : Dictionary-1.0-SNAPSHOT.war">
+        <artifact name="Gradle : thanhbui.vn : Calculator-1.0-SNAPSHOT.war">
           <settings>
             <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="b4380bb9-7148-44ac-947e-5c8019c19c54" />
+        <option name="BASE_DIRECTORY_NAME" value="c00e7225-4dfc-4ebe-8ac2-c4e342c898e8" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -118,7 +116,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51108" />
+        <option name="DEBUG_PORT" value="51600" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -183,7 +181,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Gradle : com.example : Dictionary-1.0-SNAPSHOT.war" />
+          <artifact name="Gradle : thanhbui.vn : Calculator-1.0-SNAPSHOT.war" />
         </option>
       </method>
     </configuration>
@@ -191,14 +189,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e84d50e6-ed1e-415f-a7a8-b8cb48a393b4" name="Changes" comment="" />
-      <created>1690982516161</created>
+      <changelist id="bca3415d-4b52-4941-965f-1c5664e5226e" name="Changes" comment="" />
+      <created>1691151620650</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1690982516161</updated>
-      <workItem from="1690982518062" duration="3628000" />
-      <workItem from="1691146344179" duration="1831000" />
-      <workItem from="1691154245703" duration="7000" />
+      <updated>1691151620650</updated>
+      <workItem from="1691151621864" duration="3852000" />
     </task>
     <servers />
   </component>
