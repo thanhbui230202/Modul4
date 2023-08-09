@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bca3415d-4b52-4941-965f-1c5664e5226e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thanhbui/vn/calculator/controller/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/calculator/controller/CalculatorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "H:/CodeGym/Modul4/Modul4/ShowSpice"
+    "last_opened_file_path": "H:/CodeGym/Modul4/Modul4/Dictionary",
+    "spring.configuration.checksum": "20f1f002aba92316d270c32da9f20d36"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -162,6 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691151620650</updated>
       <workItem from="1691151621864" duration="5356000" />
+      <workItem from="1691412071811" duration="266000" />
     </task>
     <servers />
   </component>

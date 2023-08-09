@@ -26,7 +26,7 @@ public class Dictionary {
         return "index";
     }
     @PostMapping  ("/convert")
-    public String Convert(@RequestParam String eng, Model model)
+    public String convert(@RequestParam String eng, Model model)
     {
         model.addAttribute("results",translate(eng));
         return "translate";

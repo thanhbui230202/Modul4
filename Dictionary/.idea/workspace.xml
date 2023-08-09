@@ -5,42 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e84d50e6-ed1e-415f-a7a8-b8cb48a393b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Calculator/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/main/java/thanhbui/vn/calculator/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/main/java/thanhbui/vn/calculator/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/main/java/thanhbui/vn/calculator/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/main/java/thanhbui/vn/calculator/controller/CalculatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/java/thanhbui/vn/showspice/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/java/thanhbui/vn/showspice/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/java/thanhbui/vn/showspice/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/java/thanhbui/vn/showspice/controller/SpiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/webapp/WEB-INF/view/submit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShowSpice/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/src/main/java/bean/SettingEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/src/main/java/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/src/main/java/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/src/main/java/thanhbui/vn/email/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/src/main/webapp/WEB-INF/view/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dictionary/controller/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dictionary/controller/Dictionary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,16 +67,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "H:/CodeGym/Modul4/Modul4/Dictionary",
-    "spring.configuration.checksum": "934dd26bbd077c205cd7caea5b580f66"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/CodeGym/Modul4/Modul4/Dictionary&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;934dd26bbd077c205cd7caea5b580f66&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\CodeGym\Modul4\Modul4\Dictionary\src\main\java\com\example\dictionary" />
@@ -199,6 +185,8 @@
       <workItem from="1690982518062" duration="3628000" />
       <workItem from="1691146344179" duration="1831000" />
       <workItem from="1691154245703" duration="7000" />
+      <workItem from="1691412344798" duration="12000" />
+      <workItem from="1691413249276" duration="1315000" />
     </task>
     <servers />
   </component>
