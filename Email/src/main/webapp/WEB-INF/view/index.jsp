@@ -21,9 +21,12 @@
             <td>${e.id}</td>
             <td>${e.language}</td>
             <td>${e.pageSize}</td>
-            <td>${e.spamFillter}</td>
+            <td>
+                <c:if test="${e.spamFillter == true}">Spam filter</c:if>
+                <c:if test="${e.spamFillter == false}">No Spam filter</c:if>
+            </td>
             <td>${e.signature}</td>
-            <td><a href="/email/update?id=${e.id}">Update</a></td>
+            <td><a href="/edit?id=${e.id}">Update</a></td>
         </tr>
     </c:forEach>
     </tr>

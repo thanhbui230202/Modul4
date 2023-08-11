@@ -11,7 +11,7 @@
         <tr>
             <td>ID</td>
             <td>
-               <form:input path="id"></form:input>
+              <p><form:hidden path="id"></form:hidden>${email.id}</p>
             </td>
         </tr>
         <tr>
@@ -24,14 +24,16 @@
         </tr>
         <tr>
             <td>Spams filter</td>
-            <td><form:input path="spamFillter"></form:input></td>
+            <td>
+                <form:checkbox path="spamFillter"></form:checkbox>Spam filter
+            </td>
         </tr>
         <tr>
             <td>Signature</td>
             <td><form:textarea path="signature"></form:textarea></td>
         </tr>
-        <td><form:hidden path=""</td>
     </table>
+    <input type="submit" value="Update">
 </form:form>
 </body>
 </html>

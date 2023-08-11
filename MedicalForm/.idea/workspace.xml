@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8448cc90-92d9-46de-92c1-52b316086111" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Email/src/main/java/thanhbui/vn/email/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/src/main/java/thanhbui/vn/email/repo/EmailRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/src/main/java/thanhbui/vn/email/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Email/src/main/java/thanhbui/vn/email/service/EmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/medicalform/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/medicalform/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/main/java/thanhbui/vn/music/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/main/java/thanhbui/vn/music/bean/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/main/java/thanhbui/vn/music/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/main/java/thanhbui/vn/music/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/main/java/thanhbui/vn/music/controller/MusicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/main/java/thanhbui/vn/music/repo/MusicRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/main/java/thanhbui/vn/music/repo/MusicRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/main/java/thanhbui/vn/music/service/MusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/main/java/thanhbui/vn/music/service/MusicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/main/webapp/WEB-INF/view/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dictionary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dictionary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Email/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Email/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Email/src/main/java/bean/SettingEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Email/src/main/java/thanhbui/vn/email/bean/SettingEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Email/src/main/java/config/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Email/src/main/java/thanhbui/vn/email/config/AppConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Email/src/main/java/config/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/medicalform/config/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Email/src/main/java/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Email/src/main/java/thanhbui/vn/email/controller/EmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Email/src/main/java/repo/EmailRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Email/src/main/java/repo/EmailRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Email/src/main/java/thanhbui/vn/email/repo/EmailRepoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Email/src/main/java/service/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Email/src/main/java/service/EmailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Email/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Email/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Email/src/main/webapp/WEB-INF/view/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Email/src/main/webapp/WEB-INF/view/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoSpringGradle/src/main/java/codegym/vn/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demoSpringGradle/src/main/java/codegym/vn/controller/StudentController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Tq0u3BbwfSloSLlD8ZmdNy7qhR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "H:/CodeGym/Modul4/Modul4/MedicalForm/src/main/java/thanhbui/vn/medicalform"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\CodeGym\Modul4\Modul4\MedicalForm\src\main\java\thanhbui\vn\medicalform" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\CodeGym\Modul4\Modul4\MedicalForm\src\main\webapp\WEB-INF\view" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8448cc90-92d9-46de-92c1-52b316086111" name="Changes" comment="" />
+      <created>1691755524122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691755524122</updated>
+      <workItem from="1691755525245" duration="369000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
