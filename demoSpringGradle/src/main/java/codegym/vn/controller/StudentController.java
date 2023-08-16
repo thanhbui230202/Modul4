@@ -60,7 +60,7 @@ public class StudentController {
 
     @GetMapping("/create")
     public String displayCreate(Model model) {
-        model.addAttribute( "student", new Student());
+        model.addAttribute("student", new Student());
         model.addAttribute("action", "create");
         model.addAttribute("hobbies", getHobbies());
         return "student/create";
