@@ -34,9 +34,21 @@ public class ProductController {
                                  @RequestParam("action") String action){
         if ("create".equals(action)){
             productService.create(product);
-        }else {
+        }   else {
             productService.update(product);
         }
-        return "redirect:product/list";
+        return "redirect:/list";
+    }
+    @GetMapping(value = "/detail")
+    public String detailList(Model model, @RequestParam("id") String id){
+        Product product =productService.findById(id);
+        model.addAttribute("product",product);
+        return "/product/detail";
+    }
+    @GetMapping(value = "/delete")
+    public String delete(Model model, @RequestParam("id") String id) {
+        Product product =productService.findById(id);
+        productService.delete(product);
+        return "redirect:/list";
     }
 }

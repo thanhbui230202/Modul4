@@ -21,7 +21,7 @@ public class ProductRepoImpl implements ProductRepo{
     }
     @Override
     public void create(Product product) {
-        if (productMap.containsKey(product.getId())){
+        if (!productMap.containsKey(product.getId())){
             productMap.put(product.getId(), product);
         }
     }

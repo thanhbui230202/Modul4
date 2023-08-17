@@ -92,8 +92,12 @@
             <td th:text="*{single}"></td>
             <td th:text="*{category}"></td>
             <td th:text="*{path}"></td>
-            <td th:href="@{}"></td>
-            <td th:href="@{}"></td>
+            <td>
+                <a th:href="@{edit(id=*{id})}">Edit</a>
+            </td>
+            <td>
+                <a th:href="@{delete(id = *{id})}">Delete</a>
+            </td>
         </tr>
     </tbody>
 </table>
