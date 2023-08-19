@@ -14,33 +14,33 @@
 </head>
 <body>
 <div id="form">
-    <form th:action="" method="post" th:object="">
+    <form th:action="@{/save}" method="post" th:object="${music}">
         <table>
             <tr>
                 <td>ID</td>
                 <td th:if="${action == 'create'}">
-                    <input type="text" th:field="*{}"/>
+                    <input type="text" th:field="*{id}"/>
                 </td>
                 <td th:if="${action == 'edit'}">
-                    <span th:text="*{}"></span>
-                    <input type="hidden" th:field="*{}">
+                    <span th:text="*{id}"></span>
+                    <input type="hidden" th:field="*{id}">
                 </td>
             </tr>
             <tr>
                 <td>Name</td>
-                <td><input type="text" th:field="*{}"/><</td>
+                <td><input type="text" th:field="*{name}"/><</td>
             </tr>
             <tr>
                 <td>Single</td>
-                <td><input type="text" th:field="*{}"/></td>
+                <td><input type="text" th:field="*{single}"/></td>
             </tr>
             <tr>
                 <td>Category</td>
-                <td><input type="text" th:field="*{}"/></td>
+                <td><input type="text" th:field="*{category}"/></td>
             </tr>
             <tr>
                 <td>File Upload</td>
-                <td><input type="file" th:field="*{}"/></td>
+                <td><input type="file" th:field="*{path}"/></td>
             </tr>
         </table>
         <input type="hidden" name="action" th:value="${action}">

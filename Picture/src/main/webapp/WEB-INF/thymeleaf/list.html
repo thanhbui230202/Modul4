@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }
+        #customers {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+    </style>
+</head>
+<body>
+<table id="customers">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>View</th>
+        <th>Author</th>
+        <th>Feedback</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="picture: ${pictures}" th:object="${picture}">
+        <td th:text="*{id}"></td>
+        <td th:text="*{view}"></td>
+        <td th:text="*{author}"></td>
+        <td th:text="*{feedback}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

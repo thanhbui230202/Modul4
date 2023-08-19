@@ -19,19 +19,19 @@ public class MusicController {
     }
     @GetMapping(value = "/create")
     public String displayCreate(Model model){
-        model.addAttribute("product",new Music());
+        model.addAttribute("music",new Music());
         model.addAttribute("action","create");
         return "create";
     }
     @GetMapping(value = "/edit")
     public String displayEdit(Model model,@RequestParam("id") String id){
         Music music = musicService.finById(id);
-        model.addAttribute("product",music);
+        model.addAttribute("music",music);
         model.addAttribute("action","edit");
         return "create";
     }
     @PostMapping("/save")
-    public String doCreateOrEdit(@ModelAttribute("product") Music music,
+    public String doCreateOrEdit(@ModelAttribute("music") Music music,
                                  @RequestParam("action") String action){
         if ("create".equals(action)){
             musicService.create(music);
