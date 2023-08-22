@@ -1,38 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="unnamed" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4b86e15-580a-48fa-9902-c52fa3f53f98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/picture/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/picture/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/picture/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/picture/controller/PictureController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/picture/entity/Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/picture/repo/PictureRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/picture/repo/PictureRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/picture/service/PictureService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thanhbui/vn/picture/service/PictureServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/thymeleaf/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/thymeleaf/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppMusic/src/main/java/thanhbui/vn/appmusic/controller/MusicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppMusic/src/main/java/thanhbui/vn/appmusic/controller/MusicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppMusic/src/main/java/thanhbui/vn/appmusic/repo/MusicRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppMusic/src/main/java/thanhbui/vn/appmusic/repo/MusicRepoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppMusic/src/main/webapp/WEB-INF/thymeleaf/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AppMusic/src/main/webapp/WEB-INF/thymeleaf/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demoSpringGradle/src/main/java/codegym/vn/repository/StudentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demoSpringGradle/src/main/java/codegym/vn/repository/StudentRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/src/main/java/com/example/demodatajpa/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/src/main/java/com/example/demodatajpa/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/src/main/java/com/example/demodatajpa/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/src/main/java/com/example/demodatajpa/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/src/main/java/com/example/demodatajpa/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/src/main/java/com/example/demodatajpa/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/src/main/java/com/example/demodatajpa/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/src/main/java/com/example/demodatajpa/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/src/main/java/com/example/demodatajpa/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/src/main/java/com/example/demodatajpa/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/src/main/java/com/example/demodatajpa/service/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/src/main/webapp/WEB-INF/thymeleaf/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/src/main/webapp/WEB-INF/thymeleaf/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoDataJPA/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +66,9 @@
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="false" />
-    <option name="FILTER_DEBUG" value="false" />
+    <option name="FILTER_WARNINGS" value="true" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -74,24 +82,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;H:/CodeGym/Modul4/Modul4/Picture&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;a4e016eb239b2585ec23e14e3261228b&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/CodeGym/Modul4/Modul4/Picture",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "a4e016eb239b2585ec23e14e3261228b"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\CodeGym\Modul4\Modul4\Picture\src\main\java\thanhbui\vn\picture" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 9.0.761" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.761" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 9.0.76" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.76" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Gradle : thanhbui.vn : Picture-1.0-SNAPSHOT.war">
@@ -101,7 +114,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="3ab56dfc-a0b2-4ce6-ad3e-d0fc5addaa9b" />
+        <option name="BASE_DIRECTORY_NAME" value="5172c13f-98d3-458d-a6d7-42f77d3d5580" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -109,7 +122,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51267" />
+        <option name="DEBUG_PORT" value="50097" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -194,6 +207,11 @@
       <workItem from="1692377794698" duration="543000" />
       <workItem from="1692378594030" duration="1215000" />
       <workItem from="1692412291453" duration="20000" />
+      <workItem from="1692428491408" duration="1081000" />
+      <workItem from="1692430790384" duration="388000" />
+      <workItem from="1692431257480" duration="102000" />
+      <workItem from="1692594276628" duration="335000" />
+      <workItem from="1692595091604" duration="795000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Blog</title>
+    <style>
+        #form {
+            width: 500px;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="form">
+    <form th:action="@{/save}" method="post" th:object="${blog}">
+        <table>
+            <tr>
+                <td>ID</td>
+                <td th:if="${action == 'create'}">
+                    <input type="text" th:field="*{id}"/>
+                </td>
+                <td th:if="${action == 'edit'}">
+                    <span th:text="*{id}"></span>
+                    <input type="hidden" th:field="*{id}">
+                </td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" th:field="*{name}"/></td>
+            </tr>
+            <tr>
+                <td>Content</td>
+                <td><label>
+                    <textarea th:field="*{content}"/>
+                </label></td>
+            </tr>
+            <tr>
+                <td>Publish</td>
+                <td><input type="date" th:field="*{publish}"/></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Create">
+                </td>
+            </tr>
+        </table>
+        <input type="hidden" name="action" th:value="${action}">
+    </form>
+</div>
+</body>
+</html>
