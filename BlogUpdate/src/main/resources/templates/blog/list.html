@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #customers {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .pagination a {
+            margin: 0 5px;
+            text-decoration: none;
+        }
+
+        .pagination button {
+            padding: 5px 10px;
+            border: none;
+            background-color: #f2f2f2;
+            cursor: pointer;
+        }
+
+        .pagination a.active button {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Blog list</h1>
+    <a th:href="@{/create}">Create blog</a>
+    <table id="customers">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Content</th>
+            <th>Publish</th>
+            <th>Category</th>
+            <th>Update</th>
+            <th>Delete</th>
+            <th>View</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="blog: ${blogs}" th:object="${blog}">
+            <td th:text="*{id}"></td>
+            <td th:text="*{name}"></td>
+            <td th:text="*{#strings.abbreviate(content,50)}"></td>
+            <td th:text="*{#dates.format(publish,'dd/MM/yyyy')}"></td>
+            <td th:text="*{category.getCategoryName()}"></td>
+            <td>
+                <a th:href="@{edit(id=*{id},page=${currentPage})}">Edit</a>
+            </td>
+            <td>
+                <a th:href="@{delete(id = *{id})}">Delete</a>
+            </td>
+            <td>
+                <a th:href="@{detail(id = *{id})}"> View</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div th:if="${blogs.totalPages > 1}" class="pagination">
+        <a th:each="pageNumber: ${pageNumbers}"
+           th:href="@{/list(page=${pageNumber}, size=${blogs.size})}"
+           th:class="${pageNumber == (blogs.number + 1) ? 'active' : ''}">
+            <button th:text="${pageNumber}"></button>
+        </a>
+    </div>
+</body>
+</html>
