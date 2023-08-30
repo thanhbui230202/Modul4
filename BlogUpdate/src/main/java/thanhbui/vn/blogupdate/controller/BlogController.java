@@ -30,9 +30,9 @@ public class BlogController {
                               @RequestParam("size")Optional<Integer> size,
                               @RequestParam("sort")Optional<String> sort){
         int currentPage = page.orElse(1);
-        int pageSize = size.orElse(3);
-        String sortField = sort.orElse("name");
-        Pageable pageable = PageRequest.of(currentPage - 1, pageSize, Sort.by(sortField).ascending());
+        int pageSize = size.orElse(5);
+        String sortField = sort.orElse("publish");
+        Pageable pageable = PageRequest.of(currentPage - 1, pageSize, Sort.by(sortField).descending());
         Page<Blog> blogs = blogService.findAll(pageable);
         model.addAttribute("blogs", blogs);
         int totalPage = blogs.getTotalPages();
