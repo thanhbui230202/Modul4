@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d48b132e-e388-4929-b344-65f8c4f1f06c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BookManageAOP/src/main/java/thanhbui/bookmanageaop/controller/BookBorrwerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManageAOP/src/main/java/thanhbui/bookmanageaop/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManageAOP/src/main/java/thanhbui/bookmanageaop/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManageAOP/src/main/java/thanhbui/bookmanageaop/entity/BookBorrower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManageAOP/src/main/java/thanhbui/bookmanageaop/gernator/CustomId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManageAOP/src/main/java/thanhbui/bookmanageaop/repository/BookBorrowerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManageAOP/src/main/java/thanhbui/bookmanageaop/repository/BookRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManageAOP/src/main/java/thanhbui/bookmanageaop/service/BookBorrowerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManageAOP/src/main/java/thanhbui/bookmanageaop/service/BookBorrowerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManageAOP/src/main/java/thanhbui/bookmanageaop/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManageAOP/src/main/java/thanhbui/bookmanageaop/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManageAOP/src/main/resources/templates/book/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManageAOP/src/main/resources/templates/book/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookManageAOP/src/main/resources/templates/book/listBorrower.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoSpringBoot/src/main/java/com/example/demospringboot/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demoSpringBoot/src/main/java/com/example/demospringboot/controller/BookController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2V7CfsV5VlXBSXTz3XQ9p5Yl9mY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/CodeGym/Modul4/Modul4/Session_Cookie"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d48b132e-e388-4929-b344-65f8c4f1f06c" name="Changes" comment="" />
+      <created>1694177837575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694177837575</updated>
+      <workItem from="1694177839247" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

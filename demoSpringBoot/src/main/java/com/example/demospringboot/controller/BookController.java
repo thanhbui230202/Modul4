@@ -81,4 +81,10 @@ public class BookController {
         model.addAttribute("book", book);
         return "book/detail";
     }
+
+    @ExceptionHandler(Exception.class)
+    public String error(Exception e, Model model) {
+        model.addAttribute("message", e.getMessage());
+        return "error";
+    }
 }
