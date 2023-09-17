@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .btn-primary{
+            background-color: yellow;
+            font-weight: bold;
+        }
+        .col-md-3{
+            text-align: center;
+        }
+        .custom-card{
+            border: 1px solid black; /* Add a 1px black border around the entire card */
+            /*padding: 10px; !* Add padding to the card for spacing *!*/
+        }
+        .custom-card img {
+            max-width: 100%; /* Make sure the image doesn't overflow the card */
+            margin-bottom: 10px; /* Add spacing between the image and other elements */
+        }
+        .discount{
+            text-decoration: line-through;
+        }
+        .cost{
+            color: red;
+        }
+        #id{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="mt-4">
+        <div class="card- mb-3">
+            <div class="row g-0">
+                <div class="col-md-3 custom-card" th:object="${product}">
+                    <img th:src="@{__${product.image}__}" class="card-img-top" th:alt="${product.name}"><br>
+                    <span th:text="${'Mã SP:'+' '+product.id}" id="id"></span><br>
+                    <span th:if="${product.discount > 0}">
+                        <span th:text="${'Giá cũ:'+' '+#numbers.formatCurrency(product.cost)}" class="discount"></span><br>
+                        <span th:text="${'Giá mới:'+' '+#numbers.formatCurrency((product.cost - (product.cost * product.discount / 100)))}" class="cost"></span>
+                    </span>
+                    <span th:if="${product.discount == 0}">
+                    <span th:text="${'Giá:'+' '+#numbers.formatCurrency(product.cost)}" class="cost"></span>
+                    </span>
+                    <br>
+                        <a class="btn btn-success" role="button" th:href="@{/save/__${product.id}__}">BUY NOW</a>
+                </div>
+                <div class="col-md-9">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

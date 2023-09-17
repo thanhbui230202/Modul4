@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <table class="table" th:if="${cart != null && cart.getMap().size()>0}">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Image</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="map:${cart.map}">
+                    <td th:text="${map.key.getName()}"></td>
+                    <td>
+                        <img th:src="${map.key.getImage()}" th:style="">
+                    </td>
+                    <td th:text="${map.key.cost}"></td>
+                    <td>
+                        <p th:if="${map.key.discount >0}">
+                            <span th:text="${#numbers.formatCurrency((map.key.getCost() - (map.key.getCost() * map.key.getDiscount() / 100)))}" class="cost"></span>
+                        </p>
+                        <p th:if="${map.key.discount ==0}">
+                            <span th:text="${#numbers.formatCurrency(map.key.getCost())}" class="cost"></span>
+                        </p>
+                    </td>
+                    <td th:text="${map.value}"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="alert alert-warning" role="alert" th:if="${cart == null || cart.getMap().size() == 0}">
+            Card Empty
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
