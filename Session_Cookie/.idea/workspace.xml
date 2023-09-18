@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d48b132e-e388-4929-b344-65f8c4f1f06c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CookieSession/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/src/main/java/com/example/cookiesession/CookieSessionApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/src/main/java/com/example/cookiesession/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/src/main/java/com/example/cookiesession/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/src/main/java/com/example/cookiesession/dto/CartDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/src/main/java/com/example/cookiesession/dto/ProductDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/src/main/java/com/example/cookiesession/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/src/main/java/com/example/cookiesession/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/src/main/java/com/example/cookiesession/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/src/main/java/com/example/cookiesession/service/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/src/main/resources/templates/product/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/src/main/resources/templates/product/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/src/main/resources/templates/product/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CookieSession/src/test/java/com/example/cookiesession/CookieSessionApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogAPI/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogAPI/src/main/java/com/example/blogapi/BlogApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogAPI/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlogAPI/src/test/java/com/example/blogapi/BlogApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestStudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestStudentController.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CookieSession/src/main/resources/templates/product/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CookieSession/src/main/resources/templates/product/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/CodeGym/Modul4/Modul4/CookieSession"
+    "last_opened_file_path": "E:/CodeGym/Modul4/Modul4/BlogUpdate"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,6 +46,8 @@
       <workItem from="1694702534918" duration="78000" />
       <workItem from="1694778080663" duration="6317000" />
       <workItem from="1694789308121" duration="4510000" />
+      <workItem from="1695041379025" duration="2001000" />
+      <workItem from="1695043802941" duration="393000" />
     </task>
     <servers />
   </component>

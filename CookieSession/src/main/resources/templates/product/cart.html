@@ -23,7 +23,7 @@
                 <tr th:each="map:${cart.map}">
                     <td th:text="${map.key.getName()}"></td>
                     <td>
-                        <img th:src="${map.key.getImage()}" th:style="">
+                        <img th:src="@{${map.key.image}}" th:width="50px" height="50px">
                     </td>
                     <td th:text="${map.key.cost}"></td>
                     <td>
