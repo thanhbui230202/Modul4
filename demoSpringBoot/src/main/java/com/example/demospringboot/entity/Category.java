@@ -1,5 +1,7 @@
 package com.example.demospringboot.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -14,6 +16,7 @@ public class Category {
 
     private String categoryName;
 
+    @JsonBackReference
     @OneToMany(mappedBy = "category")
     private List<Book> books;
 

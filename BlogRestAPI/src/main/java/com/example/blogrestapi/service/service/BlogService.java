@@ -13,4 +13,7 @@ public interface BlogService {
     Blog findById(String id);
     Page<Blog>findAll(Pageable pageable);
     List<Blog> findAll();
+
+    List<Blog> searchByName(String name);
+
 }

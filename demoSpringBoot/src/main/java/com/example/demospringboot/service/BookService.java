@@ -17,4 +17,6 @@ public interface BookService {
 
     Slice<Book> findAllSlice(Pageable pageable);
     void deleteById(String id);
+
+    List<Book> searchByName(String name);
 }

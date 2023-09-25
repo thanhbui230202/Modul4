@@ -48,4 +48,9 @@ public class BookServiceImpl implements BookService{
     public void deleteById(String id) {
         repository.deleteById(id);
     }
+
+    @Override
+    public List<Book> searchByName(String name) {
+        return repository.findAllByNameContaining(name);
+    }
 }

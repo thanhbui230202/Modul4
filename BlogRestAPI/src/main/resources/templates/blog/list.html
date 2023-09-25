@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #customers {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand">Blog</a>
+            <input class="form-control me-2" type="text" placeholder="Search" aria-label="Search" id="name">
+            <button class="btn btn-outline-success" onclick="searchByName();">Search</button>
+        </div>
+    </nav>
+    <table id="customers">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Content</th>
+            <th>Publish</th>
+            <th>Category</th>
+        </tr>
+        </thead>
+        <tbody id="result">
+        <tr th:each="blog: ${blogs}" th:object="${blog}">
+            <td th:text="*{id}"></td>
+            <td th:text="*{name}"></td>
+            <td th:text="*{#strings.abbreviate(content,50)}"></td>
+            <td th:text="*{#dates.format(publish,'dd/MM/yyyy')}"></td>
+            <td th:text="*{category.getCategoryName()}"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<button id="load-more">Load more</button>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    function searchByName() {
+        let bookName =  $("#name").val();
+        $.ajax({
+            url:   "http://localhost:8080/api/vi/blog/search",
+            data:{
+                name:bookName
+            },
+            type: "get",
+            dataType: "JSON",
+            success: function (res) {
+                let resutl = "";
+                for (let i = 0; i < res.length; i++) {
+                    resutl += "<tr>" +
+                        "<td>" +  res[i].id + "</td>"+
+                        "<td>" +  res[i].name + "</td>"+
+                        "<td>" +  res[i].content + "</td>"+
+                        "<td>" +  new Date(res[i].publish).toLocaleDateString("en-GB", {
+                            day: "2-digit",
+                            month: "2-digit",
+                            year: "numeric"
+                        }) + "</td>"+
+                        "<td>" +  res[i].category.categoryName + "</td>"
+                        + "</tr>";
+                }
+                $("#result").html(resutl);
+            }
+        });
+    }
+</script>
+<script>
+    $(document).ready(function () {
+        var page = 0;
+        var size = 3;
+
+        function loadPosts() {
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:8080/api/vi/blog/posts?page=" + page + "&size=" + size, // Include page and size parameters
+                success: function (data) {
+                    for (var i = 0; i < data.content.length; i++) {
+                        var post = data.content[i];
+                        var newRow = "<tr>" +
+                            "<td>" + post.id + "</td>" +
+                            "<td>" + post.name + "</td>" +
+                            "<td>" + post.content + "</td>" +
+                            "<td>" + new Date(post.publish).toLocaleDateString("en-GB", {
+                                day: "2-digit",
+                                month: "2-digit",
+                                year: "numeric"
+                            }) + "</td>" +
+                            "<td>" + post.category.categoryName + "</td>" +
+                            "</tr>";
+                        $("#result").append(newRow);
+                    }
+                    page++; // Increment the page for the next request
+                },
+                error: function () {
+                    console.log("Error loading posts");
+                }
+            });
+        }
+
+        // loadPosts();
+
+        $("#load-more").click(function () {
+            loadPosts();
+        });
+    });
+</script>
+<script>
+    function dateFormat(date) {
+        var date
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
