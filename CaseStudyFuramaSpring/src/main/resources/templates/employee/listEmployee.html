@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/table.css">
+</head>
+<body>
+<h1>List Employee</h1>
+<a th:href="@{/employee/create}">Create Employee</a>
+<br>
+<a th:href="@{/home}">Back to home</a>
+<table class="customers">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Birthday</th>
+            <th>ID Card</th>
+            <th>Salary</th>
+            <th>Phone</th>
+            <th>Mail</th>
+            <th>Address</th>
+            <th>Position</th>
+            <th>Education Degree</th>
+            <th>Division</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="employee: ${employees}" th:object="${employee}">
+            <td th:text="*{employeeId}"></td>
+            <td th:text="*{employeeName}"></td>
+            <td th:text="*{#dates.format(employeeBirthday,'dd/MM/YYYY')}"></td>
+            <td th:text="*{employeeIdCard}"></td>
+            <td th:text="*{employeeSalary}"></td>
+            <td th:text="*{employeePhone}"></td>
+            <td th:text="*{employeeEmail}"></td>
+            <td th:text="*{employeeAddress}"></td>
+            <td th:text="*{position.getPosition_name()}"></td>
+            <td th:text="*{educationDegree.getEducation_degree_name()}"></td>
+            <td th:text="*{division.getDivision_name()}">
+            <td>
+                <a th:href="@{/employee/edit(id=*{employeeId},page=${currentPage})}" >Edit</a>
+            </td>
+            <td>
+                <a th:href="@{/employee/delete(id = *{employeeId})}">Delete</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div th:if="${employees.totalPages > 1}" class="pagination">
+    <a th:each="pageNumber: ${pageNumbers}"
+       th:href="@{/list(page=${pageNumber}, size=${employees.size})}"
+       th:class="${pageNumber == (employees.number + 1) ? 'active' : ''}">
+        <button th:text="${pageNumber}"></button>
+    </a>
+</div>
+</body>
+</html>

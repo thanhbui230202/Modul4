@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/table.css">
+</head>
+<body>
+<h1>List Customer</h1>
+<a th:href="@{/customer/create}">Create Customer</a>
+<br>
+<a th:href="@{/home}">Back to home</a>
+<table class="customers">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Customer Type</th>
+        <th>Name</th>
+        <th>Birthday</th>
+        <th>Gender</th>
+        <th>ID Card</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr th:each="customer: ${customers}" th:object="${customer}">
+            <td th:text="*{customerId}"></td>
+            <td th:text="*{customerType.getCustomerTypeName()}"></td>
+            <td th:text="*{customerName}"></td>
+            <td th:text="*{customerBirthday}"></td>
+            <td th:text="*{customerGender}"></td>
+            <td th:text="*{customerIdCard}"></td>
+            <td th:text="*{customerPhone}"></td>
+            <td th:text="*{customerEmail}"></td>
+            <td th:text="*{customerAddress}"></td>
+            <td>
+                <a th:href="@{/customer/edit(id=*{customerId},page=${currentPage})}" >Edit</a>
+            </td>
+            <td>
+                <a th:href="@{/customer/delete(id = *{customerId})}">Delete</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div th:if="${customers.totalPages > 1}" class="pagination">
+    <a th:each="pageNumber: ${pageNumbers}"
+       th:href="@{/list(page=${pageNumber}, size=${customers.size})}"
+       th:class="${pageNumber == (customers.number + 1) ? 'active' : ''}">
+        <button th:text="${pageNumber}"></button>
+    </a>
+</div>
+</body>
+</html>
